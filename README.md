@@ -4,3 +4,4 @@ Non-Linear truss FEM code, written in python. Based on the Positional Finite Ele
 
 The code reads a truss discretization in a specefic format.
  - After the solution, it outputs 2 different files, one which can be viewed with AcadView (Visualization software from SET-EESC, University of São Paulo (USP) )
+ - blabla
