@@ -1,0 +1,75 @@
+# Entrance data
+# Every line without relevant information must start with #
+# Decimal separator "."
+# The code is expecting 8 lines of information, if that must change, the code 
+#   must also change (variable "n_input")
+
+                                                                                   
+#Tipo_de_Deformação: !SVK (0); 
+#                     !Hencky (1);  
+#                    !Almanci (2);                                                                                                                                                                                                                         
+                                                                                                                                                             
+ nnodes:                     		     3
+ npt_ou_npc:                                 100
+ tempo total de análise			     100
+ nelems:                                     2
+ ngl_numero_de_graus_de_liberdade:           2
+ Número_de_Restrições:                       4
+ Número_de_Cargas_Concentradas:              1
+ Tipo_de_Deformação:                         0
+ Nó_analisado:                               2
+ Grau de liberdade analisado:		     2
+ Beta					    0.25
+ Alfa                                        0.5
+                                                                                                     
+#DADOS DOS ELEMENTOS                                                                                
+                                                                                                    
+#CONEC  =  nº de elementos                                                                                          
+                                                                                                    
+#nó1 nó2 propriedade                                     
+       
+	1 2 1
+        2 3 1
+	
+	                                
+#NODES                                                                                              
+                                                                                                    
+#  cx     cy    cz
+   
+0 0 
+1 -1
+2 0
+                                                       
+#properties                                                                                         
+                                                                                                    
+# young ni área                                                                            
+                                                                                                    
+   1000        0.3    1		2
+   2000        0.2    2		2
+   1000        0.0    1		2
+   1000        0.0    1		2
+   1000        0.0    1		2
+                                                                                                    
+#RESTRICTIONS 
+
+(Even if there's more than one per node, those shall be in different lines)                                                                                      
+                                                                                                    
+# [ nó ; direção ( x(1), y(2), z(3) ) ; valor ] 
+
+1 1 1
+1 2 1
+3 1 1
+3 2 1
+                                                                                                                                                                        
+#CARGAS                                                                                             
+                                                                                                    
+#NLOAD                                                                                              
+                                                                                                    
+#nó direção valor                                                                                
+  
+2 2 1500
+
+
+
+                                                                                                     
+    
