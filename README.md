@@ -1,4 +1,5 @@
-# FEM nonlinear 3D Truss
+# Geometrically non-linear FEM formulation for 3D trusses
+## Work developed for the geometrically non-linear positional FEM formulation for trusses course
 
 Geometrically Non-Linear truss FEM code, written in python. Based on the Positional Finite Element Method. Theres 2 different codes, one for the static analysis and other for the dynamical analysis. 
 
